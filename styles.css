@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+   
+
+}
+
+h2 {
+    color: rgb(115, 67, 4);
+    margin:  10px auto;
+
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.note {
+    width: 600px;
+    
+}
+.notes {
+    text-align: justify;
+    margin-top: 15px;
+    margin-right: 10px
+}
+
+.ourService {
+
+    background-color: antiquewhite;
+    text-align: center;
+   
+   
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+h1, a {
+    font-family:  'Poppins', sans-serif;
+    color: rgb(115, 67, 4);
+    text-shadow: 2px 2px 8px #7e6b6b;
+}
+h3 {
+    max-width: fit-content;
+    padding: 4px;
+    border-radius: 8px;
+    font-style: italic;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+    color: rgb(113, 77, 6);
+    font-family: 'Playfair Display', serif;
+}
+a:hover {
+    background-color: #563808;
+    color: #dfc18e;
+    padding: 7px;
+    text-decoration: underline;
+    border-radius: 4px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+    
+}
+.profile {
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.myImage:hover {
+    position: relative;
+    top: -4px;
+}
+nav {
+    
+    position: sticky;
+    top: 0;
+    background-color: #ffffff; /* You can set your desired background color */
+    padding: 10px; /* Add padding to adjust the spacing as needed */
+    z-index: 100; /* Use a higher z-index value to ensure the header appears on top of other elements */
+    /* Add any other styling as needed */
+}
+
+.creation {
+    margin: 0;
+    padding: 0;
+}
+.box {
+    border-radius: 24px;
+    margin: 10px;
+    background-color:  rgb(206, 176, 134);
+    text-align: center;
+    padding: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    width: 300px;
+
+}
+
+.box:hover {
+    position: relative;
+    top: -7px;
+  
+}
+
+.navbar {
+    background-color: rgb(201, 177, 146);
+    color: rgb(120, 72, 6);
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 auto;
+    
+    
+}
+.navbar .container {
+    display: flex;
+    max-width: 1100px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav {
+    display: flex;
+ 
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    
+    
+}
+
+.nav ul li {
+    margin-left: 20px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.bodySection .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.myImage {
+    width: 400px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin-top: 20px;
+}
+
+body {
+    background-color: rgb(235, 216, 190);
+    
+    font-size: 16px;
+    line-height: 1;
+}
+
+.services {
+    padding: 20px;
+}
+
+.services .container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+    *{
+        margin: 0;
+    }
+
+    .myImage {
+        width: 70%;
+    }
+    
+    .navbar .container {
+        width: 100%;
+     
+    }
+
+    .services .container {
+        display: block;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .bodySection .container {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav .navbar {
+        width: 100%;
+         
+    }
+    
+    
+}

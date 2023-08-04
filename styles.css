@@ -182,17 +182,27 @@ body {
 }
 
 @media (max-width: 600px) {
-    *{
+   *{
         margin: 0;
     }
 
     .myImage {
-        width: 70%;
+        width: 100%;
     }
     
     .navbar .container {
+        justify-content: start;
         width: 100%;
      
+    }
+   
+    ul {
+        margin: 0;
+    }
+    
+
+    .note {
+        width: 100%;
     }
 
     .services .container {
@@ -210,6 +220,12 @@ body {
     nav .navbar {
         width: 100%;
          
+    }
+
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 auto;
     }
     
     
